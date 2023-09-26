@@ -1,0 +1,39 @@
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .carreravideocontainer {
+
+        &__video {
+            width: 450px;
+            height: 240px;
+            box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+        }
+    }
+
+    .carreralicontainer {
+
+        &__li {
+           height: 110px; 
+        }
+    }
+
+    .galeriacontainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    
+        &__img {
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+            transition: transform 0.2s;
+    
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

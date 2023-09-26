@@ -1,0 +1,76 @@
+@media only screen and (max-width: 575px) {
+    .inicio__imgmike {
+        width: 22rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+        transition: transform 0.3s;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .logros__imgmike {
+        width: 22rem;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+        transition: transform 0.3s;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .biografia__imgmike {
+        width: 22rem;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+        transition: transform 0.3s;
+    
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+
+    .carreravideocontainer {
+
+        &__video {
+            width: 410px;
+            height: 220px;
+            box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+        }
+
+    }
+
+    .carreralicontainer {
+
+        &__li {
+            height: 125px;
+        }
+    }
+
+    .galeriacontainer {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+        gap: 10px;
+    
+        &__img {
+            overflow: hidden;
+            border-radius: 5px;
+            box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+            transition: transform 0.2s;
+    
+            &:hover {
+                transform: scale(1.1);
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+}

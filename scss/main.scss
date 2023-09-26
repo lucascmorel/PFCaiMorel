@@ -1,0 +1,23 @@
+//ABSTRACTS
+@import './abstracts/variables';
+@import './abstracts/mixins';
+
+//LAYOUT
+@import './layouts/header';
+@import './layouts/mains';
+@import './layouts/footer';
+
+//PAGES
+@import './pages/inicio';
+@import './pages/logros';
+@import './pages/carrera';
+@import './pages/biografia';
+@import './pages/galeria';
+
+//MEDIA QUERIES
+@import './mediaqueries/xsm';
+@import './mediaqueries/sm';
+@import './mediaqueries/md';
+@import './mediaqueries/lg';
+@import './mediaqueries/xl';
+@import './mediaqueries/xxl';

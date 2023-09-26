@@ -1,0 +1,36 @@
+.navbar-toggler {
+    background-color: $color3;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}
+
+.bgnav {
+    background-color: $color2;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    font-weight: bold;
+    color: $color3;
+
+    &:hover{
+        color: $color3;
+    }
+}
+
+.nav-link {
+    margin: 10px;
+    color: $color3;
+
+    &:hover {
+        color: $color4;
+        font-size: 15px;
+    }
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: $color5;
+}

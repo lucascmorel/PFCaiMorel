@@ -1,0 +1,10 @@
+body {
+    color: $color3;
+    background-color: $color1;
+    @include flex-d-column;
+    min-height: 100vh;
+}
+
+.main {
+    font-family: $font1;
+}

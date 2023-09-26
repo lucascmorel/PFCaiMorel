@@ -1,0 +1,53 @@
+.carreralicontainer {
+    margin-bottom: 15px;
+
+    &__sub {
+        width: 400px;
+        height: 40px;
+        border-bottom: 1px solid $color3;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__li {
+        width: 100%;
+        height: 90px;
+        background-color: $color1;
+        border: 1px solid $color3;
+        padding: 5px;
+        box-shadow: 0px 6px 10px 2px rgba(0, 0, 0, 0.484);
+        @include align-items-center;
+        transition: transform 0.2s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
+
+.carreraestadisticas {
+    @include width-height-100;
+    color: $color3;
+    display: flex;
+    justify-content: center;
+
+    &__container {
+        width: 50%;
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+        background-color: $color2;
+    }
+}
+
+.carreravideocontainer {
+    @include width-height-100;
+    margin-top: 50px;
+    margin-bottom: 35px;
+    @include flex-d-column;
+    align-items: center;
+
+    &__video {
+        width: 560px;
+        height: 315px;
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+    }
+}

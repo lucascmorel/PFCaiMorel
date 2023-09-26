@@ -1,0 +1,38 @@
+.footer {
+    width: 100%;
+    height: 135px;
+    color: $color3;
+    background-color: $color2;
+    margin-top: auto;
+    @include flex-d-column;
+    justify-content: center;
+    align-items: center;
+
+    &__socialmedia {
+        width: 25%;
+        height: 60px;
+        @include align-items-center;
+        justify-content: space-evenly;
+
+        &__img {
+            width: 25px;
+            height: 25px;
+            transition: transform 0.2s;
+
+            &:hover {
+                transform: scale(1.3);
+            }
+        }
+    }
+
+    &__copyright {
+        width: 100%;
+        height: 60px;
+        @include align-items-center;
+        justify-content: center;
+
+        &__copy {
+            color: $color4;
+        }
+    }
+}

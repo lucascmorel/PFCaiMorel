@@ -1,0 +1,20 @@
+.logros {
+    background-color: $color1;
+    box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+
+    &__column {
+        width: 100%;
+        height: 70px;
+        @include align-items-center;
+    }
+
+    &__imgmike {
+        width: 22rem;
+        box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.484);
+        transition: transform 0.3s;
+
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}
